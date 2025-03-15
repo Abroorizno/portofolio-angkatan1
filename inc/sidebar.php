@@ -42,7 +42,7 @@
                 </a>
             </li>
             <li>
-                <a href="settings.php?sidebar=setting">
+                <a href="settings.php?sidebar">
                     <i class="bi bi-circle"></i><span>Settings</span>
                 </a>
             </li>

@@ -12,7 +12,8 @@ if (!isset($_SESSION["email"])) {
     exit();
 }
 
-$sqlSettings = mysqli_query($conn, "SELECT * FROM settings WHERE id = 1");
+$id = 1;
+$sqlSettings = mysqli_query($conn, "SELECT * FROM settings WHERE id = $id");
 $data = mysqli_fetch_assoc($sqlSettings);
 
 // Cek apakah folder assets/uploads ada
